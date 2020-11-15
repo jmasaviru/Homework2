@@ -9,5 +9,5 @@ Bootstrap
 HTML5
 CSS
 
-# UPDATED: Nov 2020
+# Updated: Nov 2020
 Portfolio has been updated as per requirements for MSU Coding Bootcamp assignment.
