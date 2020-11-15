@@ -1,8 +1,13 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 html, body {
     height: 100%;
     width: 100%;
     color: #222;
 }
+
 .navbar {
     padding: .8rem;
 }
@@ -15,8 +20,61 @@ html, body {
     font-size: 1.1em !important;
 }
 
+/* HERO About Me */
+.hero {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/pexels-lukas-574070.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 75px;
+}
+
+h2 {
+    font-family: 'Pacifico';
+    font-size: 50px;
+}
+
 .img-ferry {
     width: 300px;
+    padding: 25px;
+    border-radius: 5%;
+}
+
+/* HERO Portfolio Page*/
+.hero-portfolio {
+    height: 500px;
+    width: 100%;
+    background-image: url("./images/pexels-photomix-company-291777.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* HERO Resume */
+.hero-resume {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/pexels-negative-space-34578.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.h1resume {
+    text-align: center;
+    padding-top: 60px;
+    left: 50%;
+}
+
+#resumebtn {
+    position: relative;
+    left: 40%;
+
 }
 
 .social a {
@@ -24,30 +82,23 @@ html, body {
     padding: 3rem;
 }
 
-.fa-facebook {
-    color: #3b5998;
-}
 
-.fa-twitter {
-    color: #00aecd;
+.fa-github, .githubBtn {
+    color: black;
 }
 
 .fa-instagram {
-    color: #517fa4;
+    color: #a52f70;
 }
 
-.fa-youtube {
-    color: #bb0000;
-}
 
 .fa-linkedin {
 color: #007bb6;
 }
 
-.fa-facebook:hover,
-.fa-twitter:hover,
+.fa-github:hover,
 .fa-instagram:hover,
-.fa-youtube:hover,
+.githubBtn:hover,
 .fa-linkedin:hover {
 color: #d5d5d5;
 }
@@ -56,6 +107,7 @@ footer {
     background-color: #3f3f3f;
     color: #d5d5d5;
     padding-top: 2rem;
+    text-align: center;
 }
 hr.light {
     border-top: 1px solid #d5d5d5;
