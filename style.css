@@ -93,11 +93,16 @@ h2 {
 
 
 .fa-linkedin {
-color: #007bb6;
+color: black;
+}
+
+.fa-youtube {
+    color: black;
 }
 
 .fa-github:hover,
 .fa-instagram:hover,
+.fa-youtube:hover,
 .githubBtn:hover,
 .fa-linkedin:hover {
 color: #d5d5d5;
