@@ -41,7 +41,7 @@ h2 {
 }
 
 .img-resume {
-    width: 50%;
+    max-width: 50%;
     padding: 25px;
     border-radius: 5%;
 }
